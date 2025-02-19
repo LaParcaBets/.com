@@ -1,30 +1,18 @@
-body {
-    background-color: #121212;
-    color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    margin-top: 50px;
-}
-
-img {
-    width: 150px;
-    border-radius: 50%;
-}
-
-.join-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0088cc;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.join-btn:hover {
-    background-color: #0077b6;
-}
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación a Telegram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo del Canal" class="logo">
+        <h1>AllSportsPicks ⚽🏀🎾</h1>
+        <p class="subscribers">408 072 subscribers</p>
+        <p class="text">👉 Pulsa en “Solicitar UNIRME al canal” Te aceptamos al momento ⏳</p>
+        <p class="text">Dudas ➜📱 <a href="#" class="admin">@allpicksadmin</a></p>
+        <a href="#" class="join-button">JOIN CHANNEL</a>
+    </div>
+</body>
+</html>
