@@ -1,18 +1,45 @@
-<!DOCTYPE html><html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitación a Telegram</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <img src="logo.png" alt="Logo del Canal" class="logo">
-        <h1>AllSportsPicks ⚽🏀🎾</h1>
-        <p class="subscribers">408 072 subscribers</p>
-        <p class="text">👉 Pulsa en “Solicitar UNIRME al canal” Te aceptamos al momento ⏳</p>
-        <p class="text">Dudas ➜📱 <a href="#" class="admin">@allpicksadmin</a></p>
-        <a href="#" class="join-button">JOIN CHANNEL</a>
-    </div>
-</body>
-</html>
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECEFF4;
+    background-image: url('https://telegram.org/img/tl_card_weblog.png');
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Párrafos y enlaces */
+p {
+    font-size: 1.2em;
+    color: #444;
+}
+
+/* Imagen del logo */
+img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Botón de enlace */
+a {
+    display: inline-block;
+    background-color: #0088cc;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #005f8a;
+}
