@@ -11,14 +11,15 @@ body {
 }
 
 /* Contenedor del logo y texto */
-.container { 
+.container {
     background-color: black;
     color: white;
-    padding: 30px; /* Mantiene un buen espacio interno */
+    padding: 30px;
     border-radius: 10px;
-    width: 75%; /* Reduce el ancho para dejar espacio a los lados */
-    max-width: 500px; /* Controla el tamaño máximo */
+    width: 85%; /* Asegura que el recuadro se vea bien sin ocupar toda la pantalla */
+    max-width: 600px; /* Un poco más ancho que antes */
     text-align: center;
+    margin: auto; /* Centra el recuadro */
 }
 
 /* Estilo del título */
