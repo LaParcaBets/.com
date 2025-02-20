@@ -2,8 +2,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ECEFF4;
-    background-image: url('https://telegram.org/img/tl_card_weblog.png');
+    background-image: url('fondo.png'); /* Usa la imagen subida */
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 20px;
 }
@@ -36,10 +38,4 @@ a {
     border-radius: 8px;
     text-decoration: none;
     font-size: 1.2em;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-a:hover {
-    background-color: #005f8a;
-}
+    font-weight:
