@@ -13,10 +13,12 @@ body {
 /* Contenedor del logo y texto */
 .container {
     background-color: black;
-    padding: 20px;
+    color: white;
+    padding: 30px; /* Aumenta el espacio interno */
     border-radius: 10px;
-    display: inline-block;
-    max-width: 80%;
+    width: 90%; /* Aumenta el ancho del recuadro */
+    max-width: 600px; /* Evita que se haga demasiado grande en pantallas grandes */
+    text-align: center;
 }
 
 /* Estilo del título */
