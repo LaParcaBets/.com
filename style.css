@@ -56,3 +56,14 @@ a {
 a:hover {
     background-color: #005f8a;
 }
+.subtext {
+    color: gray;
+    font-size: 0.9em;
+    margin-top: -10px;
+}
+
+.footer-text {
+    color: gray;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
