@@ -11,8 +11,7 @@ body {
 }
 
 /* Contenedor del logo y texto */
-.container {
-.container {
+.container { 
     background-color: black;
     color: white;
     padding: 30px; /* Mantiene un buen espacio interno */
