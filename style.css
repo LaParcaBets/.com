@@ -5,38 +5,38 @@ body {
     background-image: url('fondo.png');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     text-align: center;
     padding: 20px;
     color: white;
 }
 
-/* Contenedor del logo y el texto */
+/* Contenedor del logo y texto */
 .container {
-    background-color: black; /* Fondo negro sólido */
+    background-color: black;
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
-    text-align: center;
     max-width: 80%;
 }
 
 /* Estilo del título */
 h1 {
-    font-size: 2.5em;
+    font-size: 2em; /* Tamaño reducido */
     font-weight: bold;
-    color: white; /* Letras blancas para que se lean */
+    color: white;
+    margin: 10px 0;
 }
 
-/* Párrafos y enlaces */
+/* Párrafos */
 p {
-    font-size: 1.2em;
+    font-size: 1em; /* Tamaño reducido */
     color: white;
+    margin: 10px 0;
 }
 
 /* Imagen del logo */
 img {
-    max-width: 100px;
+    max-width: 120px;
     margin-bottom: 10px;
 }
 
@@ -45,10 +45,10 @@ a {
     display: inline-block;
     background-color: #0088cc;
     color: white;
-    padding: 12px 25px;
+    padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     transition: 0.3s;
 }
