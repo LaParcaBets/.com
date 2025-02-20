@@ -12,12 +12,13 @@ body {
 
 /* Contenedor del logo y texto */
 .container {
+.container {
     background-color: black;
     color: white;
-    padding: 30px; /* Aumenta el espacio interno */
+    padding: 30px; /* Mantiene un buen espacio interno */
     border-radius: 10px;
-    width: 90%; /* Aumenta el ancho del recuadro */
-    max-width: 600px; /* Evita que se haga demasiado grande en pantallas grandes */
+    width: 75%; /* Reduce el ancho para dejar espacio a los lados */
+    max-width: 500px; /* Controla el tamaño máximo */
     text-align: center;
 }
 
