@@ -14,12 +14,12 @@ body {
 .container {
     background-color: black;
     color: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
-    width: 85%; /* Asegura que el recuadro se vea bien sin ocupar toda la pantalla */
-    max-width: 600px; /* Un poco más ancho que antes */
+    width: 75%;
+    max-width: 500px;
     text-align: center;
-    margin: auto; /* Centra el recuadro */
+    margin: auto;
 }
 
 /* Estilo del título */
